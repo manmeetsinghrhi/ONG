@@ -1,0 +1,129 @@
+body{font-family:'Open Sans',sans-serif;font-size:12px;color:#222;background:#d5d5d5;margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0}
+#container{width:100%;max-width:1600px;margin:0 auto; position:relative;}
+.center-box{width:100%; max-width:1200px;margin:0 auto;}
+header{width:100%;float:left;background-color:#fff; position:relative;}
+.logo{float:left}
+.logo a{margin:15px 0 0;display:block;}
+.winner-button{float:right;width:330px;text-align:center;padding:10px 0; cursor:pointer;}
+.winner-button a{font-size:26px;color:#fff;text-decoration:none;display:block;text-transform:uppercase;line-height:36px}
+.content{background:url(../images/car-bg.jpg) no-repeat center top;height:auto;float:left;width:100%;padding-top:130px;padding-bottom:20px}
+.form-box{width:420px;float:right;background:rgba(234,234,234,.8);margin-top:225px}
+.full-width{width:100%; float:left;background:url(../images/banner.jpg) 0 105px  #fff no-repeat;}
+
+.slogan{float: left;font-family: 'Josefin Slab', serif;
+    font-size: 60px;
+
+        line-height: 102px;
+    font-weight: bold; margin-top: 230px;}
+.slogan span{background: rgba(256,256,256,.8);padding:20px 30px; }
+
+
+.heading{font-size:30px;color:#444444;text-align:center;background:#c0bfc0;padding:20px 10px;width:auto;margin:0;font-family: 'Josefin Slab', serif; text-transform:uppercase; line-height:38px;}
+.form-1{padding:20px;position:relative}
+.form-box label{float:left; line-height:40px;font-size:14px; text-align:right;    width: 25%;}
+.form-box .title-1{border:1px #b8b9b9 solid;float:right;width:69%;font-size:14px;color:#555;height:40px;background:#fff;margin-bottom:7px;padding:0 2%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.register-button{font-family: 'Josefin Slab', serif;text-transform:uppercase; font-weight:bold;background:#f4823c;width:145px;padding:13px 20px;text-align:center;font-size:18px;color:#fff;font-weight:300;border:0;cursor:pointer;margin:10px auto 0;display:block;clear: both;}
+.register-button:hover{background: #484848;}
+
+.submit-button{background: green;width:125px;    border-radius: 10px; padding:13px 20px;text-align:center;font-size:19px;color:#fff;font-weight:300;border:0;cursor:pointer;margin:10px auto 0;display:block;}
+.submit-button:hover{background: #005d00;}
+
+.social-login{width:100%;float:left;background:#fff}
+.social-login span.social-icon{float:left;font-size:30px;padding:4px 6px}
+.social-login span.social-icon a{text-decoration:none}
+.social-login span.social-icon a i{float:left}
+.fb a{color:#3b5998}
+.gp a{color:#dd4b39}
+.tw a{color:#00aced}
+.ig a{color:#517fa4}
+.social-login .text1{font-size: 12px;line-height: 39px;padding: 0 10px;float: left;width: 27%;text-align: right;}
+.our-sponser{width:100%;float:left;text-align:center;background:rgba(244,130,60,.8);padding:20px 0;z-index: 0;position: relative;}
+.our-sponser img{margin:10px}
+.our-sponser h2{font-size:30px;font-family: 'Josefin Slab', serif;text-transform:uppercase;color:#fff;font-weight:800;padding:0;margin:0 0 20px}
+.col-large{width:100%;float:left; background:#fff;}
+.col-x{text-align:center;padding:0px 20px 20px 0;background:#fff;margin:30px 0;font-size:20px;line-height:29px;border-radius:10px}
+.col-x img{float:left; margin:0 50px 10px 0;}
+.center-box h3{font-family: 'Josefin Slab', serif;font-size:40px;text-transform:uppercase;font-weight:800; width:100%; text-align:center; margin-top:70px;margin-bottom:50px;}
+.center-box p{text-align: left;}
+footer{text-align:center;width:100%;float:left; background:#444;color:#fff;    padding: 20px 0;}
+footer a{color:#fff;text-decoration:none}
+footer .social-icon{font-size:20px;margin:5px}
+footer .center-box p{margin:5px 0; text-align:center;}
+.privacy{float:right;margin:-47px 49px 0 0; cursor:pointer;}
+.privacy i{font-size:16px}
+.privacy i:hover{color:#222;}
+.privacy_hover{display:none;z-index: 2;position:absolute;padding:10px;background:#fff;right:0;line-height:20px}
+.privacy_hover span{float: right;background: grey; cursor:pointer;padding: 4px 10px;color: #fff;}.privacy_hover span:hover{background:#222;}
+
+.winner_lists{background: #fff;box-shadow: 1px 3px 7px #222; z-index:9;width: 321px; display:none;height: 481px;  -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;position: absolute;right: 4px;top: 106px; font-size:14px; text-align:center;line-height: 20px;padding: 20px; color:#333;}
+.winner_lists span{float: right;background: grey; cursor:pointer; margin: -16px;padding: 4px 10px;
+color: #fff;}.winner_lists span:hover{background:#222;}
+.winner_lists h2{margin: 15px;text-align: center;line-height: 34px;font-size: 24px;text-transform: uppercase;}
+.col_repeat{width: 100%;float: left;}
+	
+@media only screen and (max-width : 1400px) {
+.col-x{margin:30px}
+}
+@media only screen and (max-width : 1200px) {
+.col-x{margin:30px}
+.form-box,.winner-button{margin-right:20px}
+.winner_lists{right: 24px;}
+.logo a{margin:25px 0 0 10px}
+.slogan{margin-left:10px;}
+.content{background-position-x:12%}
+
+
+
+}
+@media only screen and (max-width : 768px) {
+.slogan {position: absolute;top: 0;font-size: 44px;margin-top: 80px;width: 100%;text-align: center; margin-left:0;}
+.slogan span {background: rgba(256,256,256,.8);padding: 20px 30px;}
+.slogan br{display:none;}
+.form-box .title-1{float:right;margin-right:2%;margin-left:2%;width:62.7%}
+.form-box{width:70%;float:none;margin:25px auto 0}
+.logo a{width:200px;margin-top:15px}
+.winner-button{width:200px}
+.social-login .text1{font-size:16px;    line-height: 46px;}
+.col-x h3{line-height:40px;font-size:32px}
+.content{padding-top:97px}
+.col-x p{font-size:18px}
+.privacy{margin-right:25%}
+.social-login span.social-icon{font-size:30px;padding:8px 6px}
+
+.winner_lists{width:69%; right:15.5%; left:15.5%; top:116px;}
+.col-x img{float:none; margin:0;}
+.full-width{background-position:0 70px;}
+}
+@media only screen and (max-width : 480px) {
+.slogan{font-size: 25px;}
+.form-box{width:80%}
+.heading{font-size: 18px;padding: 10px;line-height: 26px;}
+.our-sponser h2{font-size:25px}
+.col-x h3{line-height:30px;font-size:26px}
+.social-login .text1{font-size:12px}
+.form-box .title-1{float:none;margin-right:0;margin-left:0;width:100%}
+.logo a{width:140px;margin-top:15px}
+.winner-button{width:140px}
+.social-login span.social-icon{font-size: 24px;padding: 8px 6px;}
+.col-x p{font-size:14px;line-height:22px}
+.privacy{margin-right:14%}
+.winner_lists{width:79%; right:10.5%; left:10.5%; top:116px; }
+.col-x img{    width: 100%;}
+.form-box label{display:none;}
+.center-box h3	{line-height: 46px;font-size: 24px;margin: 30px 0;}
+}
+
+.hide480{display:none;}
+
+
+@media only screen and (max-width : 320px) {
+.col-x h3{font-size:24px}
+.col-x p{font-size:12px;line-height:20px}
+.privacy{margin-right:2%}
+.social-login .text1 {font-size: 11px;}
+.center-box h3 {line-height: 36px;font-size: 24px;margin: 20px 0;margin-bottom: -10px;}
+.slogan span{    padding: 10px 20px;}
+.slogan {font-size: 20px;}
+
+}
